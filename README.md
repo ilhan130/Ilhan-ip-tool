@@ -17,19 +17,32 @@ A professional IP information lookup tool for Termux with detailed network insig
 
 ## 🚀 Quick Installation Script
 
-Copy and paste this single command to install everything automatically:
+Copy and paste this **single command** to install everything automatically:
 
 ```bash
 pkg update -y && pkg upgrade -y && pkg install git -y && git clone https://github.com/ilhan130/Ilhan-ip-tool.git && cd Ilhan-ip-tool && chmod +x ilhaniptool.sh && ln -s $PWD/ilhaniptool.sh $PREFIX/bin/ilhanip && echo "✅ Installation complete! Run with: ilhanip"
+```
 
+---
 
+## ‼️‼️ Quick Update to New Version
 
+If you already installed **Ilhan IP Tool** and want to update it to the **latest version**, run this command:
 
+```bash
+cd ~/Ilhan-ip-tool && git pull origin main && chmod +x ilhaniptool.sh && ln -sf $PWD/ilhaniptool.sh $PREFIX/bin/ilhanip && echo "✅ Update completed! New version ready."
+```
 
-## ‼️‼️Quick update to new Script
+---
 
+## ▶️ Run the Tool
 
+After install or update, simply run:
 
-cd ~/Ilhan-ip-tool
-git pull
-chmod +x ilhaniptool.sh
+```bash
+ilhanip
+```
+
+---
+
+© Ilhan PK
