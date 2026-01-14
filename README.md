@@ -21,3 +21,15 @@ Copy and paste this single command to install everything automatically:
 
 ```bash
 pkg update -y && pkg upgrade -y && pkg install git -y && git clone https://github.com/ilhan130/Ilhan-ip-tool.git && cd Ilhan-ip-tool && chmod +x ilhaniptool.sh && ln -s $PWD/ilhaniptool.sh $PREFIX/bin/ilhanip && echo "✅ Installation complete! Run with: ilhanip"
+
+
+
+
+
+## ‼️‼️Quick update to new Script
+
+
+
+cd ~/Ilhan-ip-tool
+git pull
+chmod +x ilhaniptool.sh
